@@ -9,14 +9,25 @@ date: ''
   display: none;
 }
 
-#getting-started img {
+getting-started img {
   margin-right: 10px;
+}
+img {
+  align:left;
+  margin-bottom: 50px;
+}
 }
 
 </style>
 
-<div class="row" style="padding-top: 30px;">
-
+<!-- https://www.quora.com/How-do-I-add-space-between-images-in-HTML --> 
+<div style="width: 40%; float:left">
+<div>
+<img src="/Users/hubenxia/Documents/algorithm/BenxiaHu.github.io/picture/BenxiaHu.jpg" width=300 height=300"/>
+</div>
+<!-- <img align="left" src="/Users/hubenxia/Documents/algorithm/BenxiaHu.github.io/picture/BenxiaHu.jpg" width=300 height=300 style="margin-bottom: 50px;"/>--> 
+</div>
+<div style="width: 60%; float:right">
 <font size=5>My name is **Benxia Hu**. I obtained my Ph.D. from the University of Chinese Academy of Sciences (UCAS), and Kunming Institute of Zoology, Chinese Academy of Sciences (KIZ,CAS) in 06/2018. I did my postdoctoral training in UNC-CH and UTH.</font>  
 <br>
 <br>
