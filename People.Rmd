@@ -1,0 +1,26 @@
+---
+title: ''
+output: html_document
+date: ''
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## PI
+
+##
+<div align="left">
+<p>
+<img align="left" src="/Users/hubenxia/Documents/algorithm/BioEpi.github.io/picture/BenxiaHu.jpg" width=100 height=100/>
+Name: Benxia Hu Ph.D.<br>
+Position: Professor<br>
+E-mail: hubenxia@gmail.com
+</p>
+</div>
+<br clear="left"/> 
+
+## Postdoc
+
+

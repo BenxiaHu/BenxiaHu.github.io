@@ -1,0 +1,24 @@
+---
+title: ""
+output: html_document
+date: ''
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Our lab mainly studies the epigenetic mechanisms in the human brain and related diseases.
+
+## Decipher the functions of human brain related disease-associated common genetic variants
+
+We will utilize Hi-C/HiChIP to link the human brain related disease-associated common genetic variants to their cognate genes.
+
+## study the functions of chromatin loops across distinct TADs
+
+We will uncover the functions of chromatin loops across different TADs.
+
+## predict the Silencers and their functions
+
+We will use deep learning to predict Silencers across different tissues and cell types, and use CRISPR-dCas9/MRRIA to reveal the functions of these Silencers.
+

@@ -1,0 +1,14 @@
+name: "Benxia Hu"
+navbar:
+  title: "Benxia Hu"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: Research.html
+    - text: "Publications"
+      href: Publications.html
+    - text: "Contact"
+      href: Contact.html
+output_dir: "docs"
+      
