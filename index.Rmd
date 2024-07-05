@@ -17,12 +17,16 @@ date: ''
 
 <div class="row" style="padding-top: 30px;">
 
-My name is **Benxia Hu**. I obtained my Ph.D. from the University of Chinese Academy of Sciences (UCAS), and Kunming Institute of Zoology, Chinese Academy of Sciences (KIZ,CAS) in 06/2018. I did my postdoctoral training in UNC-CH and UTH.  
-
-My background is wet lab and dry lab.  
-
-I would like to address biological questions of interest via Computational biology and functional experiments.  
-
-My interest includes 3D genome architectures of human brain, Alzheimer's disease, Deep Learning and Linear Algebra.
-
+<font size=5>My name is **Benxia Hu**. I obtained my Ph.D. from the University of Chinese Academy of Sciences (UCAS), and Kunming Institute of Zoology, Chinese Academy of Sciences (KIZ,CAS) in 06/2018. I did my postdoctoral training in UNC-CH and UTH.</font>  
+<br>
+<br>
+<font size=5>My background is wet lab and dry lab.</font>  
+<br>
+<br>
+<font size=5>My interest includes 3D genome architectures of human brain, Alzheimer's disease, Deep Learning and Linear Algebra.</font>  
+<br>
+<br>
+<font size=5>I would like to address biological questions of interest via Computational biology and functional experiments.</font>  
+<br>
+<br>
 </div>
