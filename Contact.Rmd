@@ -8,6 +8,7 @@ date: ''
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-E-mail:hubenxia@gmail.com
+E-mail:hubenxia@gmail.com  
 
-github:https://github.com/BenxiaHu
+
+github:https://github.com/BenxiaHu  
