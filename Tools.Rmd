@@ -1,0 +1,9 @@
+## Tools
+
+1. **DLR_ICF**, (https://github.com/BenxiaHu/DLR_ICF), analyzes distal-to-local ratio (DLR) and inter-chromosomal fraction (ICF).
+
+2. **MutSeq**, (https://github.com/BenxiaHu/MutSeq), generates in silico genetic/point mutations based on given DNA sequences.
+
+3. **ExpreLev**, (https://github.com/BenxiaHu/ExpreLev), obtains TPM/CPM/FPKM for genes or peak regions based on raw read count matrices.  
+
+4. **FullMatrix**, (https://github.com/BenxiaHu/FullMatrix), genrates a full matrix for each chromosome.  

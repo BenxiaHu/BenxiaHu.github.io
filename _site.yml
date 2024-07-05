@@ -8,6 +8,8 @@ navbar:
       href: Research.html
     - text: "Publications"
       href: Publications.html
+    - text: "Tools"
+      href: Tools.html
     - text: "Contact"
       href: Contact.html
 output_dir: "docs"

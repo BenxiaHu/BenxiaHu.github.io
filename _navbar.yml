@@ -14,7 +14,13 @@ left:
     menu:
        - text: "Publications"
          href: ./Publications.html
+  - text: "Tools"
+    menu:
+       - text: "Tools"
+         href: ./Tools.html
   - text: "Contact"
+    menu:
+       - text: "Contact"
     href: ./Contact.html
 right:
   - icon: fa-github fa-lg
