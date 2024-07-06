@@ -4,10 +4,6 @@ output: html_document
 date: ''
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 <font size=6>**1. Decipher the functions of human brain related disease-associated common genetic variants**</font>  
 <br>
 <br>

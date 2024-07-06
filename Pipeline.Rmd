@@ -1,0 +1,37 @@
+---
+title: ""
+output: html_document
+date: ''
+---
+
+<font size=5>Hi-C:
+<br>
+https://data.4dnucleome.org/resources/data-analysis/hi_c-processing-pipeline </font> 
+<br>
+<br>
+<font size=5>scATAC-seq:
+<br>
+https://stuartlab.org/signac/articles/pbmc_vignette.html </font>
+<br>
+<br>
+<font size=5>scRNA-seq:
+<br>
+https://satijalab.org/seurat/articles/pbmc3k_tutorial.html </font>
+<br>
+<br>
+<font size=5>ChIP-seq:
+<br>
+https://data.4dnucleome.org/resources/data-analysis/chipseq-processing-pipeline </font>
+<br>
+<br>
+<font size=5>ATAC-seq:
+<br>
+https://data.4dnucleome.org/resources/data-analysis/atacseq-processing-pipeline </font>
+<br>
+<br>
+<font size=5>RNA-seq:
+<br>
+https://data.4dnucleome.org/resources/data-analysis/rnaseq-processing-pipeline </font>
+<br>
+<br>
+

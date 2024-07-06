@@ -1,0 +1,45 @@
+---
+title: ""
+output: html_document
+date: ''
+---
+<font size=5>CNN:
+<br>
+1. https://www.cs.toronto.edu/~lczhang/aps360_20191/lec/w03/convnet.html 
+<br>
+2. https://poloclub.github.io/cnn-explainer/ 
+<br>
+3. https://blog.paperspace.com/writing-cnns-from-scratch-in-pytorch/ 
+</font> 
+<br>
+<br>
+<font size=5>Resnet CNN:
+<br>
+https://medium.com/@sharma.tanish096/detailed-explanation-of-residual-network-resnet50-cnn-model-106e0ab9fa9e </font> 
+<br>
+<br>
+<font size=5>Overfitting:
+<br>
+1. https://www.sabrepc.com/blog/Deep-Learning-and-AI/Epochs-Batch-Size-Iterations 
+<br>
+2. https://datahacker.rs/018-pytorch-popular-techniques-to-prevent-the-overfitting-in-a-neural-networks/ 
+<br>
+3. https://www.cs.toronto.edu/~lczhang/360/lec/w05/overfit.html
+</font>
+<br>
+<br>
+<font size=5>Dropout:
+<br>
+1. https://saturncloud.io/blog/where-to-add-dropout-in-neural-network/
+<br>
+2. https://machinelearningmastery.com/using-dropout-regularization-in-pytorch-models/ 
+</font>
+<br>
+<br>
+<font size=5>Regularization:
+<br>
+https://medium.com/analytics-vidhya/understanding-regularization-with-pytorch-26a838d94058 
+</font>
+<br>
+<br>
+

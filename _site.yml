@@ -3,14 +3,23 @@ navbar:
   title: "Benxia Hu"
   left:
     - text: "Home"
-      href: index.html
+      href: ./index.html
     - text: "Research"
-      href: Research.html
+      href: ./Research.html
     - text: "Publications"
-      href: Publications.html
-    - text: "Tools"
-      href: Tools.html
+      href: ./Publications.html
+    - text: "Resource"
+      menu:
+         - text: "Tools"
+           href: ./Tools.html
+         - text: "Pipeline"
+           href: ./Pipeline.html
+         - text: "Deep Learning"
+           href: ./DeepLearning.html
+         - text: "Statistics"
+           href: ./Statistics.html
+         - text: "Linear Algebra"
+           href: ./LinearAlgebra.html
     - text: "Contact"
-      href: Contact.html
+      href: ./Contact.html
 output_dir: "docs"
-      

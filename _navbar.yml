@@ -2,26 +2,34 @@ name: "Benxia Hu"
 title: "Benxia Hu"
 type: inverse
 left:
-  - text: "Home"
-    menu:
-      - text: "Learn more about me"
-        href: ./index.html
-  - text: "Research"
-    menu:
-       - text: "Research"
-         href: ./Research.html
-  - text: "Publications"
-    menu:
-       - text: "Publications"
-         href: ./Publications.html
-  - text: "Tools"
-    menu:
-       - text: "Tools"
-         href: ./Tools.html
-  - text: "Contact"
-    menu:
-       - text: "Contact"
-    href: ./Contact.html
+- text: "Home"
+  menu:
+    - text: "Learn more about me"
+      href: ./index.html
+- text: "Research"
+  menu:
+    - text: "Research"
+      href: ./Research.html
+- text: "Publications"
+  menu:
+    - text: "Publications"
+      href: ./Publications.html
+- text: "Resource"
+  menu:
+    - text: "Tools"
+      href: ./Tools.html
+    - text: "Pipeline"
+      href: ./Pipeline.html
+    - text: "Deep Learning"
+      href: ./DeepLearning.html
+    - text: "Statistics"
+      href: ./Statistics.html
+    - text: "Linear Algebra"
+      href: ./LinearAlgebra.html
+- text: "Contact"
+  menu:
+    - text: "Contact"
+      href: ./Contact.html
 right:
   - icon: fa-github fa-lg
     href: https://github.com/BenxiaHu/BenxiaHu.github.io

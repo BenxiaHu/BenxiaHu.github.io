@@ -4,10 +4,6 @@ output: html_document
 date: ''
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 <font size=5>E-mail:hubenxia@gmail.com</font>    
 <br>
 <br>
