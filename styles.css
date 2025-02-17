@@ -1,0 +1,104 @@
+/* Updated styles for centering the navigation bar */
+
+body {
+    background-color: #f5f5f5;
+    color: #111;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center the navigation bar items */
+    align-items: center;
+}
+
+.navbar a {
+    color: #111;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #0056b3;
+}
+
+.navbar-brand {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e5e5e5;
+    font-size: 14px;
+}
+
+h2 {
+    color: #111;
+    font-size: 1.75em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.25em;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center; /* Center the items on mobile as well */
+    }
+
+    .navbar a {
+        margin: 5px 0;
+    }
+
+    .navbar-brand {
+        margin-bottom: 10px;
+    }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> origin/main
