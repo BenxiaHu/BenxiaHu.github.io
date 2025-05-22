@@ -27,16 +27,63 @@
             <ul class="presentation-list">
                 <li>
                     <strong>MAPT-paRNA in AD:</strong>
-                    <a href="assets/presentations/m6A_paRNA_AD_2025.pptx" download target="_blank" rel="noopener">Link</a>
-                    – Rewired m6A of promoter antisense RNAs in Alzheimer’s diseaseregulates neuronal genes in the 3D nucleome.
+                    <a href="https://view.officeapps.live.com/op/view.aspx?src=https://benxiahu.github.io/assets/presentations/m6A_paRNA_AD_2025.pptx" class="view-presentation-link" rel="noopener">Link</a>
+                    <a href="assets/presentations/m6A_paRNA_AD_2025.pptx" class="download-presentation-btn" download="m6A_paRNA_AD_2025.pptx">Download</a>
+                    – Rewired m6A of promoter antisense RNAs in Alzheimer’s disease regulates neuronal genes in the 3D nucleome.
                 </li>
-            </ul>
+                </ul>
         </section>
     </div>
 
-    <!-- Footer -->
     <footer class="footer">
         <p>© 2025 Benxia Hu - All Rights Reserved</p>
     </footer>
+
+    <div id="presentationModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close-btn">&times;</span>
+            <iframe id="presentationFrame" src="" style="width:100%; height:calc(100% - 50px); border:none;" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const viewLinks = document.querySelectorAll('.view-presentation-link');
+        const modal = document.getElementById('presentationModal');
+        const iframe = document.getElementById('presentationFrame');
+        const closeModalBtn = modal.querySelector('.modal-close-btn');
+
+        viewLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent opening link in new tab
+
+                // Set iframe src to the presentation link
+                iframe.src = this.href;
+                // Display the modal
+                modal.style.display = 'block';
+
+                // Show the download button next to the clicked link (on the main page)
+                const downloadButton = this.nextElementSibling;
+                if (downloadButton && downloadButton.classList.contains('download-presentation-btn')) {
+                    downloadButton.style.display = 'inline-block';
+                }
+            });
+        });
+
+        // When the user clicks on <span> (x), close the modal
+        closeModalBtn.onclick = function() {
+            modal.style.display = 'none';
+            iframe.src = ''; // Clear iframe src to stop presentation/video
+        }
+
+        // When the user clicks anywhere outside of the modal content, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+                iframe.src = ''; // Clear iframe src
+            }
+        }
+    });
+    </script>
 </body>
 </html>
