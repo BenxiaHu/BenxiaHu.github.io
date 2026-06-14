@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk - Benxia Hu</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="index.html">Benxia Hu</a>
+        </div>
+        <div>
+            <a href="home.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="publications.html">Publications</a>
+            <a href="resources.html">Resources</a>
+            <a href="talk.html">Talk</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="talk" class="card">
+            <h2>Talk</h2>
+            <ul class="presentation-list">
+                <li>
+                    <strong>Decoding Noncoding Regions in AD:</strong>
+                    – Center for Aging and Cognitive Dysfunction, the University of Texas Health Science Center, Houston, TX, USA, 2026.
+                </li>
+                <li>
+                    <strong>Decoding Noncoding Regions in AD:</strong>
+                    – Department of Pharmacology, Addiction Science, and Toxicology, the University of Tennessee Health Science Center, Memphis, TN, USA, 2026.
+                </li>
+                <li>
+                    <strong>MAPT-paRNA in AD:</strong>
+                    <a href="https://view.officeapps.live.com/op/view.aspx?src=https://benxiahu.github.io/assets/presentations/m6A_paRNA_AD_2025.pptx" class="view-presentation-link" rel="noopener">Link</a>
+                    <a href="assets/presentations/m6A_paRNA_AD_2025.pptx" class="download-presentation-btn" download="m6A_paRNA_AD_2025.pptx">Download</a>
+                    – Baylor College of Medicine, Houston, TX, USA. 2025.
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>© 2026 Benxia Hu - All Rights Reserved</p>
+    </footer>
+
+    <div id="presentationModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close-btn">&times;</span>
+            <iframe id="presentationFrame" src="" style="width:100%; height:calc(100% - 50px); border:none;" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const viewLinks = document.querySelectorAll('.view-presentation-link');
+        const modal = document.getElementById('presentationModal');
+        const iframe = document.getElementById('presentationFrame');
+        const closeModalBtn = modal.querySelector('.modal-close-btn');
+
+        viewLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent opening link in new tab
+
+                // Set iframe src to the presentation link
+                iframe.src = this.href;
+                // Display the modal
+                modal.style.display = 'block';
+
+                // Show the download button next to the clicked link (on the main page)
+                const downloadButton = this.nextElementSibling;
+                if (downloadButton && downloadButton.classList.contains('download-presentation-btn')) {
+                    downloadButton.style.display = 'inline-block';
+                }
+            });
+        });
+
+        // When the user clicks on <span> (x), close the modal
+        closeModalBtn.onclick = function() {
+            modal.style.display = 'none';
+            iframe.src = ''; // Clear iframe src to stop presentation/video
+        }
+
+        // When the user clicks anywhere outside of the modal content, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+                iframe.src = ''; // Clear iframe src
+            }
+        }
+    });
+    </script>
+</body>
+</html>
